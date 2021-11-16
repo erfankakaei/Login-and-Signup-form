@@ -1,0 +1,139 @@
+@font-face {
+  font-family: "IRAN-Sans";
+  src: local("IRAN-Sans"), url(./fonts/IRAN-Sans.ttf);
+}
+
+@font-face {
+  font-family: "IRAN-Sans-Bold";
+  src: local("IRAN-Sans-Bold"), url(./fonts/IRAN-Sans-Bold.ttf);
+}
+
+.background {
+  position: absolute;
+  height: 100vh;
+  width: 100vw;
+  top: 0px;
+  left: 0px;
+  background-image: url("./assets/background.png");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.flex-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+  direction: rtl;
+  height: 100%;
+  width: 100%;
+  background: rgba(0, 0, 0, 0.7);
+  backdrop-filter: blur(4.5px);
+}
+
+.nav {
+  display: flex;
+  height: 62px;
+  width: 100vw;
+  font-size: 15;
+}
+.nav > div {
+  height: 50px;
+  width: 50px;
+  border-radius: 25px;
+  margin-top: 12px;
+  margin-right: 26px;
+  margin-left: 95px;
+  background-color: #c4c4c4;
+}
+.nav > a {
+  margin-top: 23px;
+  margin-left: 45px;
+  color: #ffffff;
+  font-family: "IRAN-Sans";
+  font-size: 15px;
+}
+
+.form {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+  height: 493px;
+  width: 335px;
+  background-color: #ffffff;
+  border-radius: 3px;
+}
+.top-text {
+  font-family: "IRAN-Sans";
+  font-size: 18px;
+  font-weight: 700;
+}
+.form > hr {
+  width: 276px;
+  opacity: 0.3;
+}
+.text-input {
+  height: 45px;
+  width: 279px;
+  border: 1px solid #0a043c;
+  box-sizing: border-box;
+  border-radius: 5px;
+  font-family: "IRAN-Sans";
+  font-size: 12px;
+}
+.forgotPassowrd {
+  font-family: "IRAN-Sans";
+  font-size: 11px;
+  width: 279px;
+  text-align: right;
+}
+.confirmation {
+  display: flex;
+  align-items: center;
+  height: 42px;
+  width: 289px;
+  font-family: "IRAN-Sans";
+  font-size: 11px;
+}
+.form > button {
+  height: 45px;
+  width: 279px;
+  border: 1px solid #0a043c;
+  border-radius: 5px;
+  background-color: #ffffff;
+  font-family: "IRAN-Sans";
+  font-size: 16px;
+}
+.google-signup {
+  display: flex;
+  align-items: center;
+  font-family: "IRAN-Sans";
+  font-size: 14px;
+}
+.form > div > img {
+  margin-left: 22px;
+}
+.link {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 22px;
+  font-family: "IRAN-Sans";
+  font-size: 11px;
+}
+
+.footer {
+  display: flex;
+  justify-content: flex-end;
+  height: 101px;
+  width: 100vw;
+}
+.footer > div {
+  height: 81px;
+  width: 81px;
+  border-radius: 40.5px;
+  margin-left: 58px;
+  margin-bottom: 20px;
+  background-color: #00709d;
+}
